@@ -9,3 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "master"
+  - package-ecosystem: "composer"
+    directory: "/"
+    target-branch: "2.x"
